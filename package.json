@@ -1,0 +1,25 @@
+{
+  "name": "html_starter",
+  "version": "1.0.0",
+  "description": "my first web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mubi9000/HTML_Starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mubi9000/HTML_Starter/issues"
+  },
+  "homepage": "https://github.com/Mubi9000/HTML_Starter#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
