@@ -1,4 +1,4 @@
-export function saveData() {
+function saveData() {
     // capture the user input data
     var userInput = document.getElementById("userTextInput").value;
     alert('Data entered: ' + userInput);
@@ -8,6 +8,7 @@ export function saveData() {
     fs.appendFile('mynewfile1.txt', 'Hello content!', function (err) {
         if (err) throw err;
         console.log('Saved!');
-    });
+    });;
 }
 
+module.exports = saveData;
